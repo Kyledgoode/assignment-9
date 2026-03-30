@@ -412,3 +412,4 @@ app.delete('/api/tasks/:id', requireAuth, requireManager, async (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server running on port http://localhost:${PORT}`);
 });
+
